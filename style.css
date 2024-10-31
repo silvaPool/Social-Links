@@ -63,3 +63,69 @@ body {
     width: 20vw;
     height: 5vh;
 }
+
+/* IPHONE SE */
+
+@media (max-width: 375px) {
+    .wrapper {
+        width: 80vw;
+    }
+    .links {
+        width: 50vw;
+    }
+}
+
+/* Samsung Galaxy S8 */
+
+
+@media (max-width: 360px) {
+    .wrapper {
+        width: 75vw;
+    }
+    .links {
+        width: 50vw;
+    }
+
+}
+
+/* Ipad Mini */
+
+@media (max-width: 768px) {
+    .links {
+        font-size: 25px;
+    }
+}
+
+/* Ipad Pro */
+
+@media (max-width: 1024px) {
+
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .header h2 {
+        font-size: 30px;
+    }
+    
+    .header h3 {
+        font-size: 20px;
+    }
+  
+}
+
+@media (max-width: 912px) {
+
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .header h2 {
+        font-size: 30px;
+    }
+    
+    .header h3 {
+        font-size: 20px;
+    }
+  
+}
